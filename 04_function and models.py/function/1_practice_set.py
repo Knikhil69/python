@@ -1,7 +1,7 @@
 '''Write a function greet() that prints "Hello, Python Learner!" when called'''
-# def greet(name):
-#     return f"Hello, {name}!"
-# print(greet("Python Learner"))
+# def greet():
+#     return f"Hello, Python Learner!"
+# print(greet())
 
 '''OR'''
 def greet():

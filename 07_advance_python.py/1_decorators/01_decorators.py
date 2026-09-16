@@ -1,4 +1,4 @@
-# Ddecorator is a function that takes a function, it creates a new function inside its body (wrappper). Then it retutns that new function.
+# Decorator is a function that takes a function, it creates a new function inside its body (wrappper). Then it returns that new function.
 
 def decorator(func):
     def wrapper():
@@ -10,3 +10,7 @@ def decorator(func):
 @decorator
 def say_hello():
     print("Hello")
+
+
+
+  

@@ -18,9 +18,9 @@ Only length (use default width)
 def calculate_area(length, width=10):
     return length * width
 print(calculate_area(12,8))
-print(calculate_area(15))
+print(calculate_area(15)) # default width 
 
 
 print(calculate_area(2,20))
-print(calculate_area(width=8, length=2))
+print(calculate_area(width=8, length=2))  # arguments 
 

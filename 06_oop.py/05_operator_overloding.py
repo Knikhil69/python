@@ -9,7 +9,7 @@ class Point:
     def print_point(self):    
         print(f"X is {self.x} & Y is {self.y}")
     
-    def __add__(self, p):
+    def __add__(self, p): # overloding the '+' operator 
         return Point((self.x + p.x), (self.y + p.y))
         
 
@@ -19,4 +19,6 @@ p2 = Point(6,3)
 # p = p1.sum(p2) # Returns a new point which is sum of p1 and p2
 p = p1 + p2  # wwe overload the + operator by writing 
 p.print_point()
+
+
  
